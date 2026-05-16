@@ -1,0 +1,340 @@
+{
+  "immeubles": [
+    {
+      "id": "mozv4by2mamhis7vmtn",
+      "adresse": "34, rue Josy Haendel loyer",
+      "loyer": 2524,
+      "charges": 300
+    },
+    {
+      "id": "mozv5vd089ly5mgqfu3",
+      "adresse": "8,rue Jean Chalop",
+      "loyer": 3300,
+      "charges": 210,
+      "note": ""
+    },
+    {
+      "id": "mozv6wlj9rolcibfr64",
+      "adresse": "1, rue adolphe Omlor",
+      "loyer": 1750,
+      "charges": 250
+    },
+    {
+      "id": "mp8h82clpqff0uv7m9d",
+      "adresse": "42, rue michal rodange",
+      "loyer": 2000,
+      "charges": 150,
+      "note": "dobbiamo fare fuori un locatario dispettoso e maleducato!"
+    }
+  ],
+  "locataires": [
+    {
+      "id": "mozv9e6xp5hag73tw8",
+      "nom": "Pinto",
+      "prenom": "",
+      "immId": "mozv4by2mamhis7vmtn",
+      "loyer": 800,
+      "type": "principal",
+      "tel": "",
+      "mail": "",
+      "caution": 0,
+      "cautionNote": ""
+    },
+    {
+      "id": "mozxca4tv7hfwlz2kt",
+      "nom": "Pires",
+      "prenom": "",
+      "immId": "mozv4by2mamhis7vmtn",
+      "loyer": 800,
+      "type": "principal",
+      "tel": "",
+      "mail": "",
+      "caution": 0,
+      "cautionNote": "",
+      "debut": "",
+      "fin": "",
+      "notes": "",
+      "docs": []
+    },
+    {
+      "id": "mp8i3dk2nd7jfljt6jj",
+      "nom": "Nero",
+      "prenom": "scemo",
+      "immId": "mp8h82clpqff0uv7m9d",
+      "loyer": 950,
+      "type": "principal",
+      "tel": "",
+      "mail": "",
+      "caution": 1000,
+      "cautionNote": "",
+      "debut": "2025-04-01",
+      "fin": "2027-04-01",
+      "notes": "",
+      "docs": []
+    }
+  ],
+  "paiements": {
+    "mozv9e6xp5hag73tw8-2026-1": {
+      "date": "2026-05-10"
+    },
+    "mozv9e6xp5hag73tw8-2026-2": {
+      "date": "2026-05-10"
+    },
+    "mozv9e6xp5hag73tw8-2026-3": {
+      "date": "2026-05-10"
+    },
+    "mozv9e6xp5hag73tw8-2026-4": {
+      "date": "2026-05-10"
+    },
+    "mozv9e6xp5hag73tw8-2026-5": {
+      "date": "2026-05-10"
+    },
+    "mozxca4tv7hfwlz2kt-2026-5": {
+      "date": "2026-05-10"
+    },
+    "mozxca4tv7hfwlz2kt-2026-4": {
+      "date": "2026-05-10"
+    },
+    "mozxca4tv7hfwlz2kt-2026-3": {
+      "date": "2026-05-10"
+    },
+    "mozxca4tv7hfwlz2kt-2026-2": {
+      "date": "2026-05-10"
+    },
+    "mozxca4tv7hfwlz2kt-2026-1": {
+      "date": "2026-05-10"
+    },
+    "mozv9e6xp5hag73tw8-2026-6": {
+      "date": "2026-05-16"
+    },
+    "mozxca4tv7hfwlz2kt-2026-6": {
+      "date": "2026-05-16"
+    },
+    "mp8i3dk2nd7jfljt6jj-2026-1": {
+      "date": "2026-05-16"
+    },
+    "mp8i3dk2nd7jfljt6jj-2026-2": {
+      "date": "2026-05-16"
+    },
+    "mp8i3dk2nd7jfljt6jj-2026-3": {
+      "date": "2026-05-16"
+    },
+    "mp8i3dk2nd7jfljt6jj-2026-4": {
+      "date": "2026-05-16"
+    },
+    "mp8i3dk2nd7jfljt6jj-2026-5": {
+      "date": "2026-05-16"
+    },
+    "mp8i3dk2nd7jfljt6jj-2026-6": {
+      "date": "2026-05-16"
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-05-16T15:34:22.965Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Jun 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:44.602Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Jun 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:44.123Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Jul 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:42.022Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Jul 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:40.142Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Jun 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:36.242Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Jul 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:35.791Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Sep 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:35.166Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Jun 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:34.238Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Aoû 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:33.457Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Oct 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:33.038Z",
+      "action": "Paiement annulé",
+      "detail": "Nero scemo Nov 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:28.262Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Nov 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:27.746Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Oct 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:27.330Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Sep 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:26.802Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Aoû 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:26.290Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Jul 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:25.842Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Jun 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:25.379Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Mai 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:24.930Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Avr 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:24.302Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Mar 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:23.744Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Fév 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:23.294Z",
+      "action": "Paiement enregistré",
+      "detail": "Nero scemo Jan 2026"
+    },
+    {
+      "date": "2026-05-16T15:28:08.546Z",
+      "action": "Locataire ajouté",
+      "detail": "Nero scemo"
+    },
+    {
+      "date": "2026-05-16T15:25:24.148Z",
+      "action": "Immeuble modifié",
+      "detail": "42, rue michal rodange"
+    },
+    {
+      "date": "2026-05-16T15:17:51.143Z",
+      "action": "Immeuble modifié",
+      "detail": "42, rue michal rodange"
+    },
+    {
+      "date": "2026-05-16T15:17:39.387Z",
+      "action": "Immeuble modifié",
+      "detail": "42, rue michal rodange"
+    },
+    {
+      "date": "2026-05-16T15:03:47.686Z",
+      "action": "Immeuble ajouté",
+      "detail": "42, rue michal rodange"
+    },
+    {
+      "date": "2026-05-16T15:03:11.051Z",
+      "action": "Paiement enregistré",
+      "detail": "Pires  Jun 2026"
+    },
+    {
+      "date": "2026-05-16T15:03:09.975Z",
+      "action": "Paiement enregistré",
+      "detail": "Pinto  Jun 2026"
+    },
+    {
+      "date": "2026-05-10T15:26:27.220Z",
+      "action": "Immeuble modifié",
+      "detail": "8,rue Jean Chalop"
+    },
+    {
+      "date": "2026-05-10T15:25:16.894Z",
+      "action": "Paiement enregistré",
+      "detail": "Pires  Jan 2026"
+    },
+    {
+      "date": "2026-05-10T15:25:16.496Z",
+      "action": "Paiement enregistré",
+      "detail": "Pires  Fév 2026"
+    },
+    {
+      "date": "2026-05-10T15:25:16.062Z",
+      "action": "Paiement enregistré",
+      "detail": "Pires  Mar 2026"
+    },
+    {
+      "date": "2026-05-10T15:25:15.453Z",
+      "action": "Paiement enregistré",
+      "detail": "Pires  Avr 2026"
+    },
+    {
+      "date": "2026-05-10T15:25:14.971Z",
+      "action": "Paiement enregistré",
+      "detail": "Pires  Mai 2026"
+    },
+    {
+      "date": "2026-05-10T15:25:02.669Z",
+      "action": "Locataire ajouté",
+      "detail": "Pires "
+    },
+    {
+      "date": "2026-05-10T15:21:23.573Z",
+      "action": "Paiement enregistré",
+      "detail": "Pinto  Mai 2026"
+    },
+    {
+      "date": "2026-05-10T15:21:22.819Z",
+      "action": "Paiement enregistré",
+      "detail": "Pinto  Avr 2026"
+    },
+    {
+      "date": "2026-05-10T15:21:22.371Z",
+      "action": "Paiement enregistré",
+      "detail": "Pinto  Mar 2026"
+    },
+    {
+      "date": "2026-05-10T15:21:21.651Z",
+      "action": "Paiement enregistré",
+      "detail": "Pinto  Fév 2026"
+    },
+    {
+      "date": "2026-05-10T15:21:21.094Z",
+      "action": "Paiement enregistré",
+      "detail": "Pinto  Jan 2026"
+    }
+  ],
+  "depenses": {}
+}
